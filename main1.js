@@ -31,3 +31,6 @@ function RemoveAtmeo() {
         h3[i].style.opacity = '0';
     }
 }
+
+listImg[i].style.backgroundSize = 'cover'; // 将背景图片等比例缩放，完全覆盖元素的整个内容区域
+listImg[i].style.backgroundRepeat = 'no-repeat'; // 只渲染一次
