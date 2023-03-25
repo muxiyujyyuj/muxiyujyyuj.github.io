@@ -1,7 +1,8 @@
 a {
   color: #0072C6;
-  text-decoration: none;
+  text-decoration: none; 
   font-weight: bold;
+  font-size:16px
 }
 
 a:hover {
