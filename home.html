@@ -5,11 +5,198 @@
         <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
         <title>我的主页</title>
-    </head> 
+    <style type="text/css">
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            animation: slideInLeft 1s ease;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+@media screen and (max-width: 768px) {
+            header {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            nav {
+                padding: 5px;
+            }
+
+            nav a {
+                padding: 5px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            article {
+                padding: 10px;
+            }
+
+            article h2 {
+                font-size: 20px;
+            }
+
+            footer {
+                padding: 10px;
+            }
+        }
+nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        main {
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+        footer {
+            flex-grow: 0;
+        }
+
+        main {
+            grid-column: 1 / span 2;
+        }
+
+        footer {
+            grid-column: 3 / span 1;
+        }
+.container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            main {
+                flex-grow: 0;
+            }
+
+            footer {
+                flex-grow: 1;
+            }
+        }
+
+        nav a:hover {
+            background-color: #444;
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        nav a.active {
+            background-color: #444;
+        }
+
+        nav a.active::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            margin-top: -5px;
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 5px solid #fff;
+        }
+article {
+            background-color: #333;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        article h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        article p {
+            margin: 0;
+        }
+
+        footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head> 
     <body> 
         
         <div>
             Hello World! 
         </div>  
-    </body>
+ <header>
+        <h1>暗色博客</h1>
+    </header>
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">分类</a>
+        <a href="#">标签</a>
+        <a href="#">关于</a>
+    </nav>
+    <main>
+        <article>
+            <h2>文章标题</h2>
+            <p>这是一篇文章的内容。</p>
+        </article>
+        <article>
+            <h2>文章标题</h2>
+            <p>这是一篇文章的内容。</p>
+        </article>
+        <article>
+            <h2>文章标题</h2>
+            <p>这是一篇文章的内容。</p>
+        </article>
+    </main>
+    <footer>
+<nav>
+            <a href="2.html">下一页</a>
+        </nav>
+
+        版权所有 &copy; 2023 暗色博客
+    </footer>  
+ </body>
 </html>
