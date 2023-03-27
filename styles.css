@@ -1,16 +1,4 @@
 a {
-  color: #0072C6;
-  text-decoration: none; 
-  font-weight: bold;
-  font-size:16px
-}
-
-a:hover {
-  color: #004B91;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #ffffff;
-  background-color: #000000;
+  color: lightblue;
+  text-decoration: none;
 }
