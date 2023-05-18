@@ -28,7 +28,8 @@ nav li a:hover {
 }
 footer {
 width: 1000px;
-paddling: 10px;
+background-color: white;
+margin-top: 300px;
 }
 
 
