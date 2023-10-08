@@ -1,31 +1,86 @@
-a{
- text-decoration: none;
- }
-
-nav {
-  background-color: #f2f2f2;
-  overflow: hidden;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+html,
+body {
+    height: 100%;
 }
 
-nav li {
-  float: left;
+body {
+    background-image: url("https://api.asxe.vip/random.php");
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
-nav li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+body ::selection {
+    background: pink;
+    color: #e6e6e6;
 }
 
-nav li a:hover {
-  background-color: #ddd;
-  color: black;
+#mySidenav {
+    background-color: #f1f1f1ee;
+    border-radius: 1px;
 }
+
+.header {
+    height: 42px;
+    background-color: #F3FFD1;
+}
+
+//版心container {
+    width: 1200px;
+    margin: auto; 
+}
+
+.text-logo {
+    float: left;
+}
+
+.text-logo .biaoti {
+    color: #27D5CB;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 3px 3px 5px #27D5CB;
+}
+
+.text-nav {
+    float: left;
+    padding-left: 30px;
+
+}
+
+.text-link li a {
+    font-size: 20px;
+    color: #050505;
+    line-height: 42px;
+    display: inline;
+}
+
+.text-link li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+
+}
+
+.text-link li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    background-color: #C5C5C5;
+    color: #00a4ff;
+}
+ ul li {
+        float: left;
+        padding: 10px;
+        list-style: none;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
