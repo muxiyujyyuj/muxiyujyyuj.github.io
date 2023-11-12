@@ -16,24 +16,28 @@ body {
 
 }
 
-body ::selection {
+::selection {
     background: pink;
     color: #e6e6e6;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+
 }
 
 #mySidenav {
     background-color: #f1f1f1ee;
-    border-radius: 1px;
+    border-radius: 0px;
 }
 
-.header {
+header {
     height: 42px;
     background-color: #F3FFD1;
 }
 
 //版心container {
-    width: 1200px;
-    margin: auto; 
+width: 1200px;
+margin: auto;
 }
 
 .text-logo {
@@ -73,8 +77,14 @@ body ::selection {
     background-color: #C5C5C5;
     color: #00a4ff;
 }
- ul li {
-        float: left;
-        padding: 10px;
-        list-style: none;
-    }
+
+ul li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+
+.my-space {
+    display: grid;
+    place-items: center;
+}
