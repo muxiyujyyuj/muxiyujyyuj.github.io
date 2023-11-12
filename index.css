@@ -3,10 +3,7 @@
     padding: 0;
     text-decoration: none;
 }
-@media screen and (min-width:720px //判断浏览器大小条件){
-body{background：red} //常规的样式
 
-}
 html,
 body {
     height: 100%;
@@ -35,8 +32,8 @@ body ::selection {
 }
 
 //版心container {
-    width: 1200px;
-    margin: auto; 
+width: 1200px;
+margin: auto;
 }
 
 .text-logo {
