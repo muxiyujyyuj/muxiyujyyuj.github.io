@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://muxiyujyyuj.github.io</id>
+    <title>木晞i的blog</title>
+    <updated>2024-07-11T12:45:40.020Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://muxiyujyyuj.github.io"/>
+    <link rel="self" href="https://muxiyujyyuj.github.io/atom.xml"/>
+    <subtitle>&lt;h2&gt;开启通往贰次元的大门!&lt;/h2&gt;</subtitle>
+    <logo>https://muxiyujyyuj.github.io/images/avatar.png</logo>
+    <icon>https://muxiyujyyuj.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 木晞i的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[2023年Bangumi个人总结]]></title>
+        <id>https://muxiyujyyuj.github.io/post/2023-nian-bangumi-ge-ren-zong-jie/</id>
+        <link href="https://muxiyujyyuj.github.io/post/2023-nian-bangumi-ge-ren-zong-jie/">
+        </link>
+        <updated>2024-02-09T15:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[资源汇总 网页重要更新记录]]></title>
+        <id>https://muxiyujyyuj.github.io/post/zi-yuan-hui-zong-wang-ye-chong-yao-geng-xin-ji-lu/</id>
+        <link href="https://muxiyujyyuj.github.io/post/zi-yuan-hui-zong-wang-ye-chong-yao-geng-xin-ji-lu/">
+        </link>
+        <updated>2023-03-23T03:46:11.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年Bangumi年度总结]]></title>
+        <id>https://muxiyujyyuj.github.io/post/2022-nian-bangumi-nian-du-zong-jie/</id>
+        <link href="https://muxiyujyyuj.github.io/post/2022-nian-bangumi-nian-du-zong-jie/">
+        </link>
+        <updated>2023-01-22T13:45:09.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021年Bangumi总结]]></title>
+        <id>https://muxiyujyyuj.github.io/post/2021-nian-bangumi-zong-jie/</id>
+        <link href="https://muxiyujyyuj.github.io/post/2021-nian-bangumi-zong-jie/">
+        </link>
+        <updated>2022-10-14T10:13:13.000Z</updated>
+    </entry>
+</feed>
