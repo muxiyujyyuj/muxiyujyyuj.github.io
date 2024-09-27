@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>资源汇总 网页重要更新记录 | 木晞i的blog</title>
+<meta name="description" content="&lt;h2&gt;开启通往贰次元的大门!&lt;/h2&gt;">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://muxiyujyyuj.github.io/favicon.ico?v=1727429608880">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://muxiyujyyuj.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://muxiyujyyuj.github.io">
+        <img class="avatar" src="https://muxiyujyyuj.github.io/images/avatar.png?v=1727429608880" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://muxiyujyyuj.github.io">
+        <h1 class="site-title">木晞i的blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">资源汇总 网页重要更新记录</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2023-03-23</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://muxiyujyyuj.github.io/tag/xnbidoaLE/">
+                    资源汇总
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <p>今天添加了影视集合版块，修改了一些小小的地方~</p>
+<p>—— <strong>2023-3-23 11:48</strong></p>
+<p>今天删除了github多余项目,终于知道如何跳转页面。    <code>&lt;a href=“./里世界.html”&gt;里世界&lt;/a&gt;</code><br>
+删除单独的里世界  (https://yftdtddh.github.io/lun/)，并入资源汇总 (https://yftdtddh.github.io/muxiz ... B8%96%E7%95%8C.html) 手动给几近所有的a标签加上    <code>target=&quot;_blank&quot;</code> 跳转打开新窗口。</p>
+<p>—— <strong>2023-3-27 11:17</strong></p>
+<p>今天优化了排版。<br>
+主要是去除了标题标签，因为标题标签默认会与正文空格，这样会不怎么好看。<br>
+所以用 <code>&lt;span&gt;</code> 标签了，大分类标题用18px，小分类则15px.<br>
+以下是CSS部分，这样只能用元素选择器了，几乎所有的 <code>&lt;span&gt;</code> 标签都是做标题用的。</p>
+<pre><code>span {
+        border-bottom: solid 1px black;
+        margin-top: 1em;
+ }
+</code></pre>
+<p>—— <strong>2023-4-10 12:06</strong></p>
+<p>今天启用了@winteru提供的背景图片代码。<br>
+如下</p>
+<pre><code>body {
+        background-image: url(&quot;https://www.dmoe.cc/random.php&quot;);
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+#mySidenav {
+        background-color: #f1f1f1ee;
+        padding: 1em;
+        border-radius: 4px;
+    }
+</code></pre>
+<p>说明:<br>
+將以一個隨機圖片(dmoe.cc提供)作背景，同時添加一個透明的背板。</p>
+<p>——<strong>2023-4-30 09:58</strong></p>
+<p>弹窗修复成功，还要感谢github@winteru<br>
+彈窗不能正確顯示的原因：<br>
+<code>&lt;body&gt;</code> 中的<code>onload</code>函數和<code>window.onload</code>實際上是一個函數，在 <code>&lt;body&gt;</code> 指定onload後，又在第38行中再次設置了<code>onload</code>，導致原來有的<code>onload</code>被裝蓋，無法觸發<code>showPopup</code>函數。</p>
+<p>解決方法：<br>
+將<code>window.onload</code>換為<code>window.addEventListener('load', f)</code>，<code>addEventListener</code>不會掩蓋已經有的<code>onload</code>，而是會在原有基礎上添加。<br>
+若干HTML標籤沒有關閉的問題:<br>
+一些html標籤沒有正確關閉<br>
+建議將HTML代碼進行一下對齊，便於發現此類問題.可以用pret層級自動對齊代碼。<br>
+<code>body</code>元素在<code>div</code>裡面的問題:<br>
+按HTML的要求，<code>body</code>應該直接屬於html，不應該包含在其他元素裡面。</p>
+<p>——<strong>2023-5-14 02:55</strong></p>
+<p>今天使用 <code>&lt;base&gt;</code> 标签代替了很多不必要的<br>
+<code>target=&quot;_blank&quot;</code> 节省代码。<br>
+锚点链接需要手动加上 <code>target=&quot;_self&quot;</code> ，不然会开新窗口再跳转至锚点位置。</p>
+<p>——<strong>2023-8-29 13:57</strong></p>
+<p>今天给li标签添加了相对定位，li里面的a添加了绝对定位。</p>
+<pre><code>li {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #cccccc;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        cursor: pointer;
+        animation: fadeIn 1s ease-in-out;
+        position: relative;
+   }
+
+li a {
+        font-family: 'Minecraft-Regular';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+
+li:hover {
+         transform: scale(1.05);
+}
+
+li a:hover {
+        display: none;
+}
+
+li a:active {
+        display: none;
+}
+</code></pre>
+<p>效果就是，点击li就能触发a。<br>
+虽然这样直接修改a好像也能做到……</p>
+<p>——<strong>2023-10-14 14:05</strong></p>
+<p>今天搞了个404页，原来githubpage定义404页只需创建文件。</p>
+<pre><code>---
+
+permalink: /404.html
+
+---
+
+&lt;html&gt;
+      &lt;head&gt;&lt;/head&gt;
+      &lt;body&gt;
+    对不起,目前无法访问你的连接,你可以访问主页&lt;a href=&quot;https://yftdtddh.github.io/muxizyhz/&quot;&gt;https://yftdtddh.github.io/muxizyhz/&lt;/a&gt;
+      &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>——<strong>2023-11-11 17:29</strong><br>
+今天更新了二级导航，我看教程视频上基本需要使用定位来完成，我用了个简单的办法，以下是代码：</p>
+<pre><code>//html部分
+        &lt;div class=&quot;navbar&quot;&gt;
+                &lt;ul class=&quot;navlist&quot;&gt;
+                    &lt;li class=&quot;nav-link&quot;&gt;
+                        &lt;a href=&quot;#anime&quot; target=&quot;_self&quot;&gt;动画&lt;/a&gt;
+                        &lt;ul class=&quot;droplist&quot;&gt;
+                            &lt;li&gt;
+                                &lt;a href=&quot;#anime-legal&quot; target=&quot;_self&quot;&gt;正版&lt;/a&gt;
+                                &lt;a href=&quot;#anime-apps&quot; target=&quot;_self&quot;&gt;软件&lt;/a&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+    
+    //css部分
+    .nav-link {
+    float: left;
+    width: 100px;
+    line-height: 40px;
+    padding-left: 50px;
+    text-align: center;
+    }
+
+    .navlist a {
+        color: rgba(1, 0, 0, 0.956);
+        font-size: 20px;
+        font-family: 'Default',
+        'Microsoft YaHei',
+        'tahoma',
+        'arial';
+        line-height: 20px;
+        display: block;
+        animation: none;
+    }
+
+    .nav-link:hover {
+        background-color: #fff;
+    }
+
+    .navbar a {
+        padding: 15px;
+    }
+
+    .navbar a:visited {
+        display: none;
+    }
+
+    .navbar a:hover {
+        background: none;
+        border-radius: none;
+        color: rgb(90, 92, 6);
+    }
+
+    .navbar ul {
+        display: block;
+        flex-wrap: none;
+        justify-content: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-transform: none;
+    }
+
+    .navbar li {
+        list-style: none;
+        float: left;
+        background-color: inherit;
+        border-radius: 0px;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        text-align: inherit;
+        width: inherit;
+        animation: none;
+        cursor: pointer;
+    }
+
+    .navbar ul li:hover {
+        transform: none;
+        font-weight: inherit;
+    }
+
+    .droplist a {
+       display: none;
+    }
+
+    .nav-link:hover .droplist a {
+        display: block;
+    }
+</code></pre>
+<p>——<strong>2024.7.11</strong></p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://muxiyujyyuj.github.io/post/2022-nian-bangumi-nian-du-zong-jie/">
+              <h3 class="post-title">
+                下一篇：2022年Bangumi年度总结
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan"><h2>开启通往贰次元的大门!</h2></div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/yftdtddh" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  <a href="#">回顶部</a> | <a class="rss" href="https://muxiyujyyuj.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>

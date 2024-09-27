@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://muxiyujyyuj.github.io</id>
+    <title>木晞i的blog</title>
+    <updated>2024-09-27T09:33:36.594Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://muxiyujyyuj.github.io"/>
+    <link rel="self" href="https://muxiyujyyuj.github.io/atom.xml"/>
+    <subtitle>&lt;h2&gt;开启通往贰次元的大门!&lt;/h2&gt;</subtitle>
+    <logo>https://muxiyujyyuj.github.io/images/avatar.png</logo>
+    <icon>https://muxiyujyyuj.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 木晞i的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[关于我入坑日本TV动画首个季度——2021年7月。]]></title>
+        <id>https://muxiyujyyuj.github.io/post/guan-yu-wo-ru-keng-ri-ben-tv-dong-hua-shou-ge-ji-du-2021-nian-7-yue/</id>
+        <link href="https://muxiyujyyuj.github.io/post/guan-yu-wo-ru-keng-ri-ben-tv-dong-hua-shou-ge-ji-du-2021-nian-7-yue/">
+        </link>
+        <updated>2024-09-06T14:14:10.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国内变身文推荐目录]]></title>
+        <id>https://muxiyujyyuj.github.io/post/guo-nei-bian-shen-wen-tui-jian-mu-lu/</id>
+        <link href="https://muxiyujyyuj.github.io/post/guo-nei-bian-shen-wen-tui-jian-mu-lu/">
+        </link>
+        <updated>2024-08-14T10:53:17.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最近狂看网文，日阅数十万字]]></title>
+        <id>https://muxiyujyyuj.github.io/post/zui-jin-kuang-kan-wang-wen-ri-yue-shu-shi-wan-zi/</id>
+        <link href="https://muxiyujyyuj.github.io/post/zui-jin-kuang-kan-wang-wen-ri-yue-shu-shi-wan-zi/">
+        </link>
+        <updated>2024-08-05T17:58:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023年Bangumi个人总结]]></title>
+        <id>https://muxiyujyyuj.github.io/post/2023-nian-bangumi-ge-ren-zong-jie/</id>
+        <link href="https://muxiyujyyuj.github.io/post/2023-nian-bangumi-ge-ren-zong-jie/">
+        </link>
+        <updated>2024-02-09T15:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[资源汇总 网页重要更新记录]]></title>
+        <id>https://muxiyujyyuj.github.io/post/zi-yuan-hui-zong-wang-ye-chong-yao-geng-xin-ji-lu/</id>
+        <link href="https://muxiyujyyuj.github.io/post/zi-yuan-hui-zong-wang-ye-chong-yao-geng-xin-ji-lu/">
+        </link>
+        <updated>2023-03-23T03:46:11.000Z</updated>
+    </entry>
+</feed>
